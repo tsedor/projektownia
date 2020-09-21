@@ -1,0 +1,30 @@
+* {
+  font-family: proxima-nova, sans-serif;
+}
+.about_us {
+  background-color: #215399;
+  clip-path: polygon(0 0, 100% 150px, 100% calc(100% - 150px), 0% 100%);
+  margin: 100px 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4em;
+}
+.hero {
+  height: 400px;
+}
+.top-menu {
+  display: flex;
+  font-weight: 200;
+  list-style: none;
+  padding: 0;
+}
+.top-menu__item {
+  padding: 1em 4em;
+  text-transform: uppercase;
+}
+.topm-menu__item--active {
+  color: #215399;
+  font-weight: 500;
+}
