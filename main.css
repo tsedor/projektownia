@@ -21,6 +21,19 @@
 .clip {
   clip-path: polygon(0 0, 100% 150px, 100% calc(100% - 150px), 0% 100%);
 }
+.contact_details {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1em;
+  justify-content: center;
+  margin: 0 0 0 4em;
+}
+.contact_details__telephone, .contact_details__email {
+  color: #ffffff;
+  padding: .5em;
+  text-decoration: none;
+}
 .contact_form {
   display: flex;
   flex-direction: column;

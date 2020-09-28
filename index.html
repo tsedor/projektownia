@@ -1,67 +1,89 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ProjektowniaStron.pl</title>
-  <link rel="stylesheet" href="https://use.typekit.net/twm2sft.css">
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="main.css">
-  <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
-</head>
-<body>
-  <header class="header">
-    <img src="./img/logo.svg" alt="ProjektowniaStron.pl Logo" class="header__logo">
-    <ul class="top-menu">
-      <li class="top-menu__item topm-menu__item--active">Home</li>
-      <li class="top-menu__item">O nas</li>
-      <li class="top-menu__item">Realizacje</li>
-      <li class="top-menu__item">Kontakt</li>
-    </ul>
-  </header>
-  <main>
-    <section class="hero">
-      <div class="description">
-        <h1 class="description__title">Nowoczesne strony internetowe</h1>
-        <p class="description__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum numquam aliquid eius libero reiciendis ad quibusdam! Explicabo quas animi consectetur!</p>
-        <button class="description__button">Poznaj ofertę</button>
-      </div>
-      <div class="decoration">
-        <img src="./img/women_with_laptop.svg" alt="women with laptop" class="decoration__image">
-      </div>
-    </section>
-    <section class="about_us clip">
-      <div class="container">
-        <h2 class="title">O nas</h2>
-        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur officiis reiciendis iure facere accusantium, alias voluptas temporibus architecto. Vitae ut culpa ducimus exercitationem perspiciatis quos sint rerum. Placeat sint suscipit esse error autem, unde non maxime deserunt temporibus fugiat quidem corrupti blanditiis dignissimos cumque molestias eum vero ratione minima qui distinctio odit explicabo illum. Quod nam iusto accusantium a sunt.</p>
-      </div>
-    </section>
-    <section class="our_projects">
-      <div class="container small-padding">
-        <h2 class="title dark text-right">Nasze ostatnie projekty</h2>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="container">
-        <h2 class="title">Chcesz porozmawiać</h2>
-        <div class="footer__grid">
-          <form action="index.html" class="contact_form">
-            <label for="name" class="label">Imię i Nazwisko</label>
-            <input type="text" class="input" id="name">
-            <label for="email" class="label">Adres email</label>
-            <input type="text" class="input" id="email">
-            <label for="message" class="label">Treść wiadomości</label>
-            <textarea class="input textarea" id="message"></textarea>
-            <button class="button">Wyślij</button>
-          </form>
-          <div class="contact_details">
-            tel: (+48) 450 00 56 78
-            email: kontakt@projektowniastron.pl
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProjektowniaStron.pl</title>
+    <link rel="stylesheet" href="https://use.typekit.net/twm2sft.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./img/logo.svg"
+        alt="ProjektowniaStron.pl Logo"
+        class="header__logo"
+      />
+      <ul class="top-menu">
+        <li class="top-menu__item topm-menu__item--active">Home</li>
+        <li class="top-menu__item">O nas</li>
+        <li class="top-menu__item">Realizacje</li>
+        <li class="top-menu__item">Kontakt</li>
+      </ul>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="description">
+          <h1 class="description__title">Nowoczesne strony internetowe</h1>
+          <p class="description__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum numquam
+            aliquid eius libero reiciendis ad quibusdam! Explicabo quas animi
+            consectetur!
+          </p>
+          <button class="description__button">Poznaj ofertę</button>
+        </div>
+        <div class="decoration">
+          <img
+            src="./img/women_with_laptop.svg"
+            alt="women with laptop"
+            class="decoration__image"
+          />
+        </div>
+      </section>
+      <section class="about_us clip">
+        <div class="container">
+          <h2 class="title">O nas</h2>
+          <p class="text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            officiis reiciendis iure facere accusantium, alias voluptas
+            temporibus architecto. Vitae ut culpa ducimus exercitationem
+            perspiciatis quos sint rerum. Placeat sint suscipit esse error
+            autem, unde non maxime deserunt temporibus fugiat quidem corrupti
+            blanditiis dignissimos cumque molestias eum vero ratione minima qui
+            distinctio odit explicabo illum. Quod nam iusto accusantium a sunt.
+          </p>
+        </div>
+      </section>
+      <section class="our_projects">
+        <div class="container small-padding">
+          <h2 class="title dark text-right">Nasze ostatnie projekty</h2>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <h2 class="title">Chcesz porozmawiać</h2>
+          <div class="footer__grid">
+            <form action="index.html" class="contact_form">
+              <label for="name" class="label">Imię i Nazwisko</label>
+              <input type="text" class="input" id="name" />
+              <label for="email" class="label">Adres email</label>
+              <input type="text" class="input" id="email" />
+              <label for="message" class="label">Treść wiadomości</label>
+              <textarea class="input textarea" id="message"></textarea>
+              <button class="button">Wyślij</button>
+            </form>
+            <div class="contact_details">
+              <a class="contact_details__telephone" href="tel:+48450005678">
+                tel: (+48) 450 00 56 78
+              </a>
+              <a href="mailto:kontakt@projektowniastron.pl?subject=Zapytanie ofertowe" class="contact_details__email">email: kontakt@projektowniastron.pl</a>
+            </div>
           </div>
         </div>
-      </div>
-      <p class="copyright">&copy; 2020 by ProjektowniaStron.pl</p>
-    </footer>
-  </main>
-</body>
+        <p class="copyright">&copy; 2020 by ProjektowniaStron.pl</p>
+      </footer>
+    </main>
+  </body>
 </html>
