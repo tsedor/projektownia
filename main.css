@@ -1,9 +1,6 @@
 * {
   font-family: proxima-nova, sans-serif;
 }
-.about_us {
-  background-color: #1d3557;
-}
 .button {
   background-color: #ffffff;
   border: none;
@@ -19,6 +16,7 @@
   background-color: #c7d3e2;
 }
 .clip {
+  background-color: #1d3557;
   clip-path: polygon(0 0, 100% 150px, 100% calc(100% - 150px), 0% 100%);
 }
 .contact_details {
@@ -123,7 +121,7 @@
 }
 .text {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.3em;
   line-height: 28px;
 }
 .textarea {
@@ -160,6 +158,67 @@
 }
 .text-right {
   text-align: right;
+}
+.vertical {
+  margin: 2em 0;
+  position: relative;
+}
+.workflow__line {
+  background-color: #1d3557;
+  border-radius: 3px;
+  bottom: -20px;
+  content: '';
+  left: 50%;
+  position: absolute;
+  top: -20px;
+  transform: translateX(-50%);
+  width: 5px;
+  z-index: -1;
+}
+.what_we_do__list {
+  color: #ffffff;
+  font-size: 1.3em;
+  list-style: none;
+  padding: 0;
+}
+.what_we_do__icon {
+  fill: #ffffff;
+  float: left;
+  margin: 0 2em 0 0;
+  width: 100px;
+}
+.what_we_do__item {
+  display: flex;
+  align-items: center;
+  margin: 2em 0;
+}
+.workflow__circle {
+  align-items: center;
+  background-color: #1d3557;
+  border-radius: 50%;
+  color: #ffffff;
+  display: flex;
+  font-size: 2em;
+  font-weight: 600;
+  height: 80px;
+  justify-content: center;
+}
+.workflow__item {
+  display: grid;
+  grid-template-columns: 1fr 80px 1fr;
+  margin: 2em 0;
+}
+.workflow__list {
+  margin: 2em 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.workflow__text {
+  align-items: center;
+  color: #1d3557;
+  display: flex;
+  padding: 0 2em 0 2em;
 }
 @media(max-width: 1200px) {
   .container {
